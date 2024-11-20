@@ -1,0 +1,45 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #252525 !important;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+.m-heading {
+    font-family: "Roboto Slab", serif;
+}
+
+.navigation-link {
+    border: 2p solid transparent;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #f5ba09;
+    transition: 1s ease;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('pexels-dsnsyj-1139541.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.about {
+    background: #313592;
+    border-radius: 10px;
+}
+
